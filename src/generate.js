@@ -6,9 +6,6 @@ const {
 } = require("discord.js");
 const fs = require("fs");
 (async () => {
-  /// Load ENV
-  require("dotenv").config();
-
   /// Fetching Information
   console.log("Fetch some information to build...");
   // Weather
