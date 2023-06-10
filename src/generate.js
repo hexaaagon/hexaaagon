@@ -112,8 +112,6 @@ const fs = require("fs");
     require("fs").writeFileSync("./out/image.png", buf);
   });
 
-  console.log(env.WEBHOOK_URL, env.WEATHER_APIKEY);
-
   /// Sending the data into the discord webhook
   console.log(
     "Creating the image done! Sending data to the discord using webhook."
