@@ -112,12 +112,14 @@ const fs = require("fs");
     require("fs").writeFileSync("./out/image.png", buf);
   });
 
+  console.log(env.WEBHOOK_URL, env.WEATHER_APIKEY);
+
   /// Sending the data into the discord webhook
   console.log(
     "Creating the image done! Sending data to the discord using webhook."
   );
   const lastMessageExist = fs.existsSync("./src/lastMessageID.json");
-  const webhook = new WebhookClient({ url: process.env.WEBHOOK_URL });
+  const webhook = new WebhookClient({ url: env.WEBHOOK_URL });
 
   const attachment = new AttachmentBuilder("./out/image.png");
 
