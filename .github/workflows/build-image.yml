@@ -26,8 +26,8 @@ jobs:
 
       - name: Generating Images
         env:
-          WEATHER_APIKEY: ${{ secrets.WEATHER_APIKEY }}
           WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
+          WEATHER_APIKEY: ${{ secrets.WEATHER_APIKEY }}
         run: node ./src/generate.js
 
       - name: Commit Changes
