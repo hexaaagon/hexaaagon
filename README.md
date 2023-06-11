@@ -1,5 +1,7 @@
 <div align="center">
   
+  *This image will updated every 1 hour.*
+  
   ![readme](./out/image.png)
   
   ## My Activity
