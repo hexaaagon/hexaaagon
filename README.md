@@ -1,4 +1,6 @@
 <div align="center">
+
+  [![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fhexaaagon&label=Total%20Visitors&countColor=%231e234a)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fhexaaagon)
   
   *This image will updated every 1 hour.*
   
