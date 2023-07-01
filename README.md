@@ -14,6 +14,3 @@
   
   ![github](https://github-readme-stats.vercel.app/api?username=hexaaagon&border_radius=5px&theme=dark&bg_color=1E234A&border_color=1E234A&icon_color=58a6ff&show_icons=true&custom_title=Github%20Activity&layout=compact)
 </div>
-
-A Test Image
-![image](https://s3.amazonaws.com/ebaumsworld.prod/uploads1588882686705-do-you-love-the-color-of-the-sky.jpg)
