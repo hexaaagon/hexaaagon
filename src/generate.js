@@ -15,7 +15,7 @@ const fs = require("fs");
 
   const weatherApi = "http://dataservice.accuweather.com";
   const weatherIcon = "https://developer.accuweather.com/sites/default/files";
-  const weatherCode = "3430611";
+  const weatherCode = "3430611"; // expired
   const env = process.env;
 
   const weatherBody = (

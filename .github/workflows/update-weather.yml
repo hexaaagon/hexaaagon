@@ -1,0 +1,39 @@
+name: Update Weather
+
+on:
+  schedule:
+    - cron: "0 */1 * * *"
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    environment: production
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Installing Node.js
+        uses: actions/setup-node@v4.0.0
+        with:
+          node-version: 19.8.1
+
+      - name: Installing packages before install modules for NPM
+        run: sudo apt-get -y install build-essential libcairo2-dev libpango1.0-dev libjpeg-dev libgif-dev librsvg2-dev
+
+      - name: Installing NPM Modules
+        run: npm install
+
+      - name: Generating Images
+        env:
+          WEATHER_APIKEY: ${{ secrets.WEATHER_APIKEY }}
+          WEATHER_CODE: ${{ secrets.WEATHER_CODE }}
+        run: node ./src/weather/generate.js
+
+      - name: Commit Changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "chore(automation): update weather data"
+          commit_user_name: actions-user
+          commit_user_email: actions@github.com
+          commit_author: actions-user <actions@github.com>
