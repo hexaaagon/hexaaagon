@@ -1,5 +1,7 @@
 const fs = require("fs");
-const axios = require("axios")(async () => {
+const axios = require("axios");
+
+(async () => {
   const { WEATHER_APIKEY, WEATHER_CODE } = process.env;
 
   const data = (
