@@ -1,10 +1,9 @@
 <div align="center">
 
-[![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fhexaaagon&label=Total%20Visitors&countColor=%231e234a)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fhexaaagon)
+[![Hexaa Banner](https://api.hexagonn.my.id/hexaa/aboutme)]()
 
-![readme](./maintenance.png)
-
-_\*This image will be back with the new design, and faster build._
+[![Personal Website](https://github.com/hexaaagon/hexaaagon/assets/128217934/3fecfcbb-4952-48bc-97c6-50dbd337ac7e)](https://hexagonn.my.id)
+[![Donate at Trakteer](https://github.com/hexaaagon/hexaaagon/assets/128217934/51378bd9-e0bd-401a-8ee0-cd4e53974e2b)](https://trakteer.id/hexaaagon)
 
 ## Social.
 
