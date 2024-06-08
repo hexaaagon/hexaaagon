@@ -11,4 +11,6 @@
 
 [![wakatime_image](https://github-readme-stats.vercel.app/api/wakatime?username=hexaaagon&border_radius=5px&theme=dark&text_color=FFFFFF&bg_color=011B33&border_color=011B33&icon_color=58a6ff&show_icons=true&custom_title=Code%20Activity&layout=compact)](https://wakatime.com/@hexaaagon)
 
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=hexaaagon&theme=dark&hide_border=true&border_radius=20&background=011B33)](https://github.com/hexaaagon)
+
 </div>
