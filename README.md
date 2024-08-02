@@ -11,6 +11,11 @@
 
 # 🎒 Experience.
 <div align="left">
+  <div align="center">
+    
+  [![Wakatime](https://wakatime.com/badge/user/5863d56e-d5ae-4b4c-bb4e-350fe0f22338.svg?style=for-the-badge)](https://wakatime.com/@hexaaagon)
+  
+  </div>
   
   ### 🗣️ Language
   [![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
