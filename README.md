@@ -1,10 +1,10 @@
 <div align="center">
 
-[![Profile Viewer](https://komarev.com/ghpvc/?username=hexagonn&style=for-the-badge)]()
+[![Hexaa Banner](https://hexagonn.my.id/api/banner)](https://hexagonn.my.id)
 
 # 🏠 Landing.
 
-[![Hexaa Banner](https://hexagonn.my.id/api/banner)](https://hexagonn.my.id)
+[![Profile Viewer](https://komarev.com/ghpvc/?username=hexagonn&style=for-the-badge)]()
 
 [![Personal Website](https://github.com/hexaaagon/hexaaagon/assets/128217934/3fecfcbb-4952-48bc-97c6-50dbd337ac7e)](https://hexagonn.my.id)
 [![Donate at Trakteer](https://github.com/hexaaagon/hexaaagon/assets/128217934/51378bd9-e0bd-401a-8ee0-cd4e53974e2b)](https://trakteer.id/hexaaagon)
