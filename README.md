@@ -4,7 +4,7 @@
 
 # 🏠 Landing.
 
-[![Hexaa Banner](https://api.hexagonn.my.id/hexaa/aboutme)]()
+[![Hexaa Banner](https://hexagonn.my.id/api/banner)](https://hexagonn.my.id)
 
 [![Personal Website](https://github.com/hexaaagon/hexaaagon/assets/128217934/3fecfcbb-4952-48bc-97c6-50dbd337ac7e)](https://hexagonn.my.id)
 [![Donate at Trakteer](https://github.com/hexaaagon/hexaaagon/assets/128217934/51378bd9-e0bd-401a-8ee0-cd4e53974e2b)](https://trakteer.id/hexaaagon)
