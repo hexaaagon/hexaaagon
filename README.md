@@ -1,12 +1,12 @@
 <div align="center">
 
-# 🏠 Landing.
+# 🏠 Landing
 
 [![Profile Viewer](https://komarev.com/ghpvc/?username=hexagonn&style=for-the-badge)]()
 
 [![Hexaa Banner](https://hexagonn.my.id/api/banner)](https://hexagonn.my.id)
 
-# 🎒 Experience.
+# 🎒 Experience
 <div align="left">
   <div align="center">
     
@@ -54,7 +54,7 @@
 <details>
 <summary>More?</summary>
   
-# 👨‍💻 Social.
+# 👨‍💻 Social
 
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=hexaaagon&theme=dark&hide_border=true&border_radius=20&background=011B33)](https://github.com/hexaaagon)
 
