@@ -13,15 +13,12 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Installing Node.js
-        uses: actions/setup-node@v4.0.0
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v4
         with:
-          node-version: 19.8.1
+          node-version: "21.x"
 
-      - name: Installing packages before install modules for NPM
-        run: sudo apt-get -y install build-essential libcairo2-dev libpango1.0-dev libjpeg-dev libgif-dev librsvg2-dev
-
-      - name: Installing NPM Modules
+      - name: Install Dependencies
         run: npm install
 
       - name: Generating Images
