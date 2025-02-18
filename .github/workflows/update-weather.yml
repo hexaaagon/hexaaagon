@@ -13,18 +13,20 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Cache Node.js and npm modules
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.npm
+            node_modules
+          key: ${{ runner.os }}-node-modules-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-modules-
+
       - name: Setup Node.js environment
         uses: actions/setup-node@v4
         with:
           node-version: "21.x"
-
-      - name: Cache Node.js modules
-        uses: actions/cache@v4
-        with:
-          path: node_modules
-          key: ${{ runner.os }}-node-modules-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-modules-
 
       - name: Install Dependencies
         run: npm install
